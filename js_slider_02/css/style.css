@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #my-slider {
+    display: flex;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.container #my-slider .slider-buttons {
+    background: inherit;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.container #my-slider .slider-buttons img {
+    width: 30px;
+}
+
+#slider-screen {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#slider-screen #line-of-images {
+    left: 0;
+    position: relative;
+    width: 384px;
+    display: flex;
+    transition: .5s;
+}
